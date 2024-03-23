@@ -1,0 +1,1 @@
+- Notes on wildcard certificate/configuration

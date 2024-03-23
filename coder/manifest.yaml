@@ -1,0 +1,20 @@
+---
+name: coder
+title: "Coder V2"
+version: 2.9.1
+maintainer: "@ssmiller25"
+description: Run VS Code on any machine anywhere and access it through the browser.
+url: https://github.com/coder/coder
+category: management
+dependencies:
+  - cert-manager
+configuration:
+  ADMIN_PASS:
+    label: "Admin Password"
+    value: "CIVO:ALPHANUMERIC(30)"
+  CLUSTER_ID:
+    label: "Cluster ID"
+    value: "CIVO:CLUSTER_ID"
+  EMAIL_ADDRESS:
+    label: "Email Address"
+    value: "CIVO:EMAIL_ADDRESS"
